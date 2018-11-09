@@ -1,0 +1,13 @@
+Product Review WebSite
+
+Home
+Find a review
+User
+Contact
+
+Pasos:
+
+Add Node JS server
+Create Backend API and database:
+- Users database and encrypted login
+- Products database
