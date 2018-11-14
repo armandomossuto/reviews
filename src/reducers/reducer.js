@@ -1,10 +1,10 @@
-import  { SEARCH_REVIEWS } from "../constants/action-types";
+import  { UPDATE_SEARCHTERM } from "../constants/action-types";
 
 
 const reducer = (state  = [], action) => {
 	switch (action.type) {
 		
-		case SEARCH_REVIEWS:
+		case UPDATE_SEARCHTERM:
 			return {...state, searchTerm: action.payload};
 
 		default:
