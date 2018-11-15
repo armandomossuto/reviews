@@ -1,0 +1,22 @@
+/* Home Component */
+
+.home-page {
+	display: flex;
+	flex-direction: column;
+}
+
+.home-page > div{
+	min-height: 500px;
+}
+
+.home-page > div:nth-child(3n+1) {
+	@include primary-combo;
+}
+
+.home-page > div:nth-child(3n+2) {
+	@include third-combo;
+}
+
+.home-page > div:nth-child(3n+3) {
+	@include secondary-combo;
+}

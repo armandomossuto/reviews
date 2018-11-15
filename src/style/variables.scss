@@ -1,0 +1,20 @@
+/* Variables and Mixins for the project */
+
+$primary-color: #66B9BF;
+$secondary-color: #07889B;
+$navbar-color: #081112;
+
+@mixin primary-combo {
+	background-color: $primary-color;
+	color: white;
+}
+
+@mixin secondary-combo {
+	background-color: $secondary-color;
+	color: white;
+}
+
+@mixin third-combo {
+	background-color: white;
+	color: $secondary-color;
+}
