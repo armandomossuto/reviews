@@ -1,5 +1,0 @@
-Home (Search)
-Search  --> Database reviews
-Profile --> Database users
-Add a review (Search)
-
