@@ -20,3 +20,25 @@
 .home-page > div:nth-child(3n+3) {
 	@include secondary-combo;
 }
+
+.home-page > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+
+		img {
+		height: 15px;
+		width: auto;
+	}
+
+	input {
+		height: 18px;
+		width: 250px;
+	}
+
+}
+
+
